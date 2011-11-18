@@ -4,5 +4,5 @@ Bundler.require
 
 
 get '/' do
-  "BLAH"
+  erb :index
 end
